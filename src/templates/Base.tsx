@@ -10,7 +10,7 @@ const Base = () => (
   <div className="text-gray-600 antialiased">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
-    <Sponsors />
+    {% comment %} <Sponsors /> {% endcomment %}
     <VerticalFeatures />
     <Banner />
     <Footer />
