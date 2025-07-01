@@ -1,36 +1,34 @@
-import { AppConfig } from '../utils/AppConfig';
-
 type ILogoProps = {
   xl?: boolean;
 };
 
 const Logo = (props: ILogoProps) => {
   const size = props.xl ? '44' : '32';
-  const fontStyle = props.xl
-    ? 'font-semibold text-3xl'
-    : 'font-semibold text-xl';
+  const fontStyle = props.xl ? 'font-bold text-2xl' : 'font-bold text-lg';
 
   return (
-    <span className={`inline-flex items-center text-gray-900 ${fontStyle}`}>
+    <span className={`inline-flex items-center text-white ${fontStyle}`}>
       <svg
-        className="mr-1 stroke-current text-primary-500"
+        className="mr-2 stroke-current text-blue-400"
         xmlns="http://www.w3.org/2000/svg"
         width={size}
         height={size}
         viewBox="0 0 24 24"
-        strokeWidth="1.5"
+        strokeWidth="2"
         fill="none"
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <path d="M0 0h24v24H0z" stroke="none" />
-        <rect x="3" y="12" width="6" height="8" rx="1" />
-        <rect x="9" y="8" width="6" height="12" rx="1" />
-        <rect x="15" y="4" width="6" height="16" rx="1" />
-        <path d="M4 20h14" />
+        {/* Industrial gear icon */}
+        <circle cx="12" cy="12" r="3" />
+        <path d="M12 1v6m0 6v6" />
+        <path d="M1 12h6m6 0h6" />
+        <path d="M3.6 3.6l4.2 4.2m8.4 8.4l4.2 4.2" />
+        <path d="M20.4 3.6l-4.2 4.2m-8.4 8.4l-4.2 4.2" />
       </svg>
 
-      {AppConfig.site_name}
+      <span className="text-blue-400">MDK</span>
+      <span className="ml-1 text-gray-300">System</span>
     </span>
   );
 };

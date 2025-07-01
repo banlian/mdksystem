@@ -1,6 +1,7 @@
 export const AppConfig = {
-  site_name: 'MDK SYSTEM TOOLKIT',
-  title: 'MDK SYSTEM TOOLKIT',
-  description: 'MDK SYSTEM TOOLKIT',
-  locale: 'zh-CN',
+  site_name: 'MDK System - Machine Development Kit',
+  title: 'MDK System - Machine Development Kit',
+  description:
+    'Comprehensive software development framework for rapid customization and deployment of industrial automation systems',
+  locale: 'en-US',
 };

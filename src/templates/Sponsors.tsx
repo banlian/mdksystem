@@ -23,7 +23,6 @@ const Sponsors = () => (
               />
             </a>
           </td>
-          
         </tr>
       </tbody>
     </table>
