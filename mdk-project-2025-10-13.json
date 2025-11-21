@@ -1,0 +1,87 @@
+{
+  "id": "qwdu5s5da",
+  "name": "新项目",
+  "description": "",
+  "version": "1.0.0",
+  "createdAt": "2025-10-13T14:18:53.753Z",
+  "updatedAt": "2025-10-13T14:20:24.942Z",
+  "ioConfigs": [
+    {
+      "id": "vk1j8owh5",
+      "name": "1",
+      "type": "DI",
+      "address": "1",
+      "description": "11",
+      "enabled": true
+    }
+  ],
+  "axisConfigs": [
+    {
+      "id": "6okrjnl3y",
+      "name": "11",
+      "type": "Y",
+      "maxSpeed": 10011,
+      "acceleration": 5011,
+      "deceleration": 5011,
+      "homePosition": 11,
+      "softLimitMin": -100011,
+      "softLimitMax": 100011,
+      "enabled": true
+    }
+  ],
+  "stationConfigs": [
+    {
+      "id": "vrdmqtqdz",
+      "name": "test",
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "ioConfigs": [],
+      "axisConfigs": [],
+      "description": "test",
+      "enabled": true
+    },
+    {
+      "id": "f5yz9bwkr",
+      "name": "工位2",
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "ioConfigs": [],
+      "axisConfigs": [],
+      "description": "",
+      "enabled": true
+    },
+    {
+      "id": "794rtgard",
+      "name": "工位3",
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "ioConfigs": [],
+      "axisConfigs": [],
+      "description": "",
+      "enabled": true
+    }
+  ],
+  "taskConfigs": [
+    {
+      "id": "s7qg7xtfo",
+      "name": "1",
+      "stationId": "vrdmqtqdz",
+      "sequence": [
+        {
+          "id": "df8k2q3sv",
+          "type": "IO",
+          "parameters": {},
+          "description": ""
+        }
+      ],
+      "priority": 11,
+      "enabled": true
+    }
+  ]
+}
